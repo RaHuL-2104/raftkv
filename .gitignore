@@ -1,0 +1,19 @@
+# Maven build output
+target/
+
+# Node runtime data (WAL, snapshots) - never commit these
+data/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+dependency-reduced-pom.xml
+.github/modernize/
