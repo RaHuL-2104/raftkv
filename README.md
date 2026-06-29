@@ -2,7 +2,7 @@
 
 A distributed, linearizable key-value store implemented from scratch in Java, built on a working implementation of the **Raft consensus algorithm**. No consensus libraries, no embedded databases — leader election, log replication, write-ahead logging, and snapshotting are all hand-written and independently verified.
 
-This project was built as a deep dive into distributed systems fundamentals, not a tutorial clone. Every component — RPC framing, persistence, log reconciliation — was implemented, tested, and debugged against real multi-process failure scenarios.
+This project was built as a deep dive into distributed systems fundamentals. Every component — RPC framing, persistence, log reconciliation — was implemented, tested, and debugged against real multi-process failure scenarios.
 
 ```
 PUT foo bar  → OK
